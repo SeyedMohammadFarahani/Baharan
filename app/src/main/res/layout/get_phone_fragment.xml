@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.baharan.service.Widget.Text
+
+        android:id="@+id/appCompatTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="فراموشی رمز عبور"
+        android:textColor="#212121"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <com.baharan.service.Widget.Text
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/forgot1"
+        android:textColor="#212121"
+        android:textSize="@dimen/_17ssp"
+        android:textStyle="bold" />
+
+    <com.baharan.service.Widget.EditTxt
+        android:id="@+id/forgotPhoneEditText"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edittext_back"
+        android:drawableEnd="@drawable/ic_smartphone"
+        android:drawableRight="@drawable/ic_smartphone"
+        android:gravity="center"
+        android:hint="شماره موبایل"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:paddingRight="8dp"
+        android:shadowColor="#41000000"
+        android:singleLine="true"
+        android:textColor="#646464"
+        android:textColorHint="@color/gray"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold" />
+
+    <com.baharan.service.Widget.Btn
+        android:id="@+id/sendCodeButton"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/register_button"
+        android:gravity="center"
+        android:text="دریافت کد"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

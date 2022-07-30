@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/temp" />
+
+    <com.baharan.service.Widget.Text
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="این بخش درحال توسعه است!"
+        android:textColor="@color/font"
+        android:gravity="center"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold" />
+
+</LinearLayout>

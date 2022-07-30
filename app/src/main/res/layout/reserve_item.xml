@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reserveRow"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_190sdp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="#FFFFFF">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:background="@drawable/reserve_item2">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.01" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/v14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.99" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/v10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.01" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.58" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.42" />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.44" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.63" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="پزشک:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l7"
+            app:layout_constraintEnd_toStartOf="@+id/v14"
+            app:layout_constraintTop_toTopOf="@+id/l6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="تاریخ:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l8"
+            app:layout_constraintEnd_toStartOf="@+id/v14"
+            app:layout_constraintTop_toTopOf="@+id/l7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="نوبت:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/l15"
+            app:layout_constraintTop_toTopOf="@+id/l8" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="ساعت:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/v14"
+            app:layout_constraintTop_toTopOf="@+id/l8" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="تخصص:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l7"
+            app:layout_constraintEnd_toStartOf="@+id/l15"
+            app:layout_constraintTop_toTopOf="@+id/l6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/hospitalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="right"
+            android:text="بیمارستان مفید"
+            android:textColor="#2a2e33"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l8"
+            app:layout_constraintEnd_toStartOf="@+id/l17"
+            app:layout_constraintTop_toTopOf="@+id/l7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/doctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="دکتر هاشمی"
+            android:textColor="#2a2e33"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l7"
+            app:layout_constraintEnd_toStartOf="@+id/l1"
+            app:layout_constraintTop_toTopOf="@+id/l6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/reserveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="98/11/5"
+            android:textColor="#2a2e33"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l8"
+            app:layout_constraintEnd_toStartOf="@+id/l1"
+            app:layout_constraintTop_toTopOf="@+id/l7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/reserveCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="1234"
+            android:textColor="@color/BlueDark"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/l17"
+            app:layout_constraintTop_toTopOf="@+id/l8" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/reserveTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="15:30"
+            android:textColor="#2a2e33"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/l1"
+            app:layout_constraintTop_toTopOf="@+id/l8" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/fieldName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="right"
+            android:text="ارتوپد"
+            android:textColor="#2a2e33"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l7"
+            app:layout_constraintEnd_toStartOf="@+id/l17"
+            app:layout_constraintTop_toTopOf="@+id/l6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/text42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="right"
+            android:text="مکان:"
+            android:textColor="#3c8ce7"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/l8"
+            app:layout_constraintEnd_toStartOf="@+id/l15"
+            app:layout_constraintTop_toTopOf="@+id/l7"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:buttonTint="#D81B60"
+            android:id="@+id/selectReserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="@+id/l120"
+            app:layout_constraintTop_toTopOf="@+id/v10" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>

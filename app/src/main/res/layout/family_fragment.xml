@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.baharan.service.Widget.Btn
+                android:id="@+id/familyButton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/search_back"
+                android:drawableRight="@drawable/ic_forward"
+                android:elevation="@dimen/_4sdp"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="ثبت و اضافه   "
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v6"
+                app:layout_constraintTop_toBottomOf="@+id/insuranceEditText"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:text="نام"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintTop_toBottomOf="@+id/text9" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:text="کد ملی"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintTop_toBottomOf="@+id/lastNameEditText" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:text="نام‌خانوادگی"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:text="کد بیمه"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintTop_toBottomOf="@+id/codeMelliEditText" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.08" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.3" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/v5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/v6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.25" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/v3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/v4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.75" />
+
+            <ImageButton
+                android:id="@+id/familyButton2"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_mother"
+                app:layout_constraintBottom_toTopOf="@+id/h1"
+                app:layout_constraintEnd_toStartOf="@+id/v3"
+                app:layout_constraintStart_toStartOf="@+id/v3"
+                app:layout_constraintTop_toTopOf="@+id/h1" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="مادر"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v3"
+                app:layout_constraintStart_toStartOf="@+id/v3"
+                app:layout_constraintTop_toBottomOf="@+id/familyButton2" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="پدر"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v4"
+                app:layout_constraintStart_toStartOf="@+id/v4"
+                app:layout_constraintTop_toBottomOf="@+id/familyButton1" />
+
+            <ImageButton
+                android:id="@+id/familyButton1"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_father"
+                app:layout_constraintBottom_toTopOf="@+id/h1"
+                app:layout_constraintEnd_toStartOf="@+id/v4"
+                app:layout_constraintStart_toStartOf="@+id/v4"
+                app:layout_constraintTop_toTopOf="@+id/h1" />
+
+            <ImageButton
+                android:id="@+id/familyButton3"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_child"
+                app:layout_constraintBottom_toTopOf="@+id/h1"
+                app:layout_constraintEnd_toStartOf="@+id/v2"
+                app:layout_constraintStart_toStartOf="@+id/v2"
+                app:layout_constraintTop_toTopOf="@+id/h1" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="فرزند"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v2"
+                app:layout_constraintStart_toStartOf="@+id/v2"
+                app:layout_constraintTop_toBottomOf="@+id/familyButton3" />
+
+            <ImageButton
+                android:id="@+id/familyButton4"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_other"
+                app:layout_constraintBottom_toTopOf="@+id/h2"
+                app:layout_constraintEnd_toStartOf="@+id/v4"
+                app:layout_constraintStart_toStartOf="@+id/v4"
+                app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+            <ImageButton
+                android:id="@+id/familyButton5"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_brother"
+                app:layout_constraintBottom_toTopOf="@+id/h2"
+                app:layout_constraintEnd_toStartOf="@+id/v3"
+                app:layout_constraintStart_toStartOf="@+id/v3"
+                app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+            <ImageButton
+                android:id="@+id/familyButton6"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/family_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_sister"
+                app:layout_constraintBottom_toTopOf="@+id/h2"
+                app:layout_constraintEnd_toStartOf="@+id/v2"
+                app:layout_constraintStart_toStartOf="@+id/v2"
+                app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="سایرین"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v4"
+                app:layout_constraintStart_toStartOf="@+id/v4"
+                app:layout_constraintTop_toBottomOf="@+id/familyButton4" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="برادر"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v3"
+                app:layout_constraintTop_toTopOf="@+id/h2" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/text21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:text="خواهر"
+                android:textColor="#049485"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v2"
+                app:layout_constraintStart_toStartOf="@+id/v2"
+                app:layout_constraintTop_toBottomOf="@+id/familyButton6" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/nameEditText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/family_edit_back"
+                android:drawableRight="@drawable/ic_name"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLength="40"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_19ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v6"
+                app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/lastNameEditText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/family_edit_back"
+                android:drawableRight="@drawable/ic_name"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLength="40"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_19ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v6"
+                app:layout_constraintTop_toBottomOf="@+id/text12" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/insuranceEditText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/family_edit_back"
+                android:drawableRight="@drawable/ic_insurance"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_19ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v6"
+                app:layout_constraintTop_toBottomOf="@+id/text10" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/codeMelliEditText"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/family_edit_back"
+                android:drawableRight="@drawable/ic_code"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_19ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/v5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/v6"
+                app:layout_constraintTop_toBottomOf="@+id/text8" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

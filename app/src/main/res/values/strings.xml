@@ -1,0 +1,171 @@
+<resources>
+    <string name="register">ثبت‌‌‌نام</string>
+    <string name="login_password_hint">رمز عبور</string>
+    <string name="signup_login_hint">قبلا ثبت‌‌‌نام کرده‌اید؟ ورود</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string name="app_name">سرویس نوبت‌دهی</string>
+    <string name="forgot1">لطفا شماره همراه خود را وارد کنید</string>
+    <string name="forgot2">این شماره همراه در سیستم وارد نشده‌است</string>
+    <string name="changePassword">رمز عبور‌جدید خود را وارد کنید</string>
+    <string name="newPass">رمز‌عبور جدید خود را وارد کنید</string>
+    <string name="newPass2">تکرار رمز‌عبور خود را وارد کنید</string>
+    <string name="newPass3">تکرار رمز‌عبور هم‌خوانی ندارد</string>
+    <string name="newPass4">رمز‌عبور با موفقیت تغییر کرد</string>
+    <string name="register1">لطفا یک شماره موبایل وارد کنید</string>
+    <string name="register2">این شماره در‌حال حاضر ثبت شده‌است</string>
+    <string name="register3">شماره همراه وارد‌شده معتبر نمی‌باشد</string>
+    <string name="register10">این شماره همراه قبلا وارد ‌شده‌است</string>
+    <string name="register4">لطفا کد‌ملی را وارد کنید</string>
+    <string name="register5">کد‌ملی وارد‌شده باید 10 رقمی باشد</string>
+    <string name="register9">کد‌ملی وارد‌شده معتبر نمی‌باشد</string>
+    <string name="register12">کد‌ملی وارد‌شده با رمز‌عبور هم‌خوانی ندارد</string>
+    <string name="register11">این کد‌ملی قبلا وارد شده‌است</string>
+    <string name="register6">لطفا یک رمز‌عبور برای خود انتخاب کنید</string>
+    <string name="register7">رمز‌عبور انتخابی از امنیت کافی برخوردار نیست</string>
+    <string name="register8">لطفا رمز‌عبور خود را وارد کنید</string>
+    <string name="login">کد‌ملی در سیستم یافت نشد</string>
+    <string name="login2">رمز‌عبور وارد‌شده با کد‌ملی هم‌خوانی ندارد</string>
+    <string name="code1"> کد فعال‌سازی به شماره </string>
+    <string name="code2"> ارسال‌شد. </string>
+    <string name="reSend"> امکان درخواست برای ارسال مجدد کد </string>
+    <string name="reSend2">  : 0  </string>
+    <string name="enterCode">  لطفا کد فعال‌سازی را وارد کنید  </string>
+    <string name="error">کد فعال‌سازی صحیح نمی باشد</string>
+    <string name="mainTitle">خدمات</string>
+    <string name="tempTitle">درحال توسعه...</string>
+    <string name="Title6">صفحه‌ی کاربری</string>
+    <string name="Title5">نوبت پزشکی</string>
+    <string name="Title4">مشاهده‌ی نوبت‌ها</string>
+    <string name="Title7">افزودن بستگان</string>
+    <string name="Title8">لیست بستگان</string>
+    <string name="exit">آیا می‌خواهید از برنامه خارج شوید؟</string>
+    <string name="exit_account">آیا می‌خواهید از حساب‌کاربری خود خارج شوید؟</string>
+    <string name="action_settings">action setting</string>
+    <string name="nameProfile">نام نمی‌تواند خالی باشد</string>
+    <string name="nameProfile1">نام وارد‌شده صحیح نمی‌باشد</string>
+    <string name="nameProfile2">نام‌خانوادگی نمی‌تواند خالی باشد</string>
+    <string name="nameProfile3">نام‌خانوادگی وارد‌شده صحیح نمی‌باشد</string>
+    <string name="insuranceCode">کد بیمه نمی‌تواند خالی باشد</string>
+    <string name="insuranceCode1">کد بیمه وارد‌شده نباید کمتر از 8 رقم باشد</string>
+    <string name="email">ایمیل نمی‌تواند خالی باشد</string>
+    <string name="email1">آدرس ایمیل وارد‌شده صحیح نمی‌باشد</string>
+    <string name="change">تغییرات اضافه‌شد</string>
+    <string name="notFound">موردی یافت نشد</string>
+    <string name="addFamily">اضافه شد</string>
+    <string name="loginInformation">لطفا اطلاعات ورود خود را وارد کنید</string>
+    <string name="registerInformation">لطفا اطلاعات ثبت‌‌‌نام خود را وارد ‌کنید</string>
+    <string name="transfer">برای انجام ادامه عملیات لطفا ابتدا به تکمیل اطلاعات خود در صفحه کاربری بپردازید</string>
+    <string name="transferToFamily">هنوز فردی به عنوان بستگان شما ثبت نشده‌است. برای ادامه به صفحه‌ی افزودن بستگان بروید</string>
+    <string name="transferToDoctor">هنوز نوبت جدیدی اضافه نشده‌است. برای گرفتن نوبت به صفحه‌ی درخواست نوبت آنلاین بروید.</string>
+    <string name="familyError">لطفا نسبت خویشاوندی خود را مشخص کنید</string>
+    <string name="verification">  کد احراز هویت برای شما  </string>
+    <string name="codeFamilyError">این کد‌‌ملی قبلا وارد شده‌است</string>
+    <string name="InsuranceCodeFamilyError">این کد‌بیمه قبلا وارد شده‌است</string>
+    <string name="deleteFamily">آیا می‌خواهید این فرد را از لیست بستگان خود حذف کنید؟</string>
+
+    <string-array name="States">
+        <item>استان آذربایجان شرقی</item>
+        <item>استان آذربایجان غربی</item>
+        <item>استان اردبیل</item>
+        <item>استان اصفهان</item>
+        <item>استان تهران</item>
+        <item>استان خراسان رضوی</item>
+        <item>استان مازندران</item>
+    </string-array>
+
+    <string-array name="Azarbayjan_Sharghi">
+        <item>شهرستان تبریز</item>
+        <item>شهرستان آذرشهر</item>
+        <item>شهرستان اسکو</item>
+        <item>شهرستان اهر</item>
+        <item>شهرستان بستان‌آباد</item>
+        <item>شهرستان بناب</item>
+    </string-array>
+
+    <string-array name="Azarbayjan_Gharbi">
+        <item>شهرستان ارومیه</item>
+        <item>شهرستان اشنویه</item>
+        <item>شهرستان بوکان</item>
+        <item>شهرستان پلدشت</item>
+        <item>شهرستان پیرانشهر</item>
+        <item>شهرستان تکاب</item>
+    </string-array>
+
+    <string-array name="Ardebil">
+        <item>شهرستان اردبیل</item>
+        <item>شهرستان بیله‌سوار</item>
+        <item>شهرستان خلخال</item>
+        <item>شهرستان سرعین</item>
+        <item>شهرستان کوثر</item>
+        <item>شهرستان مشگین‌شهر</item>
+        <item>شهرستان نمین</item>
+    </string-array>
+
+    <string-array name="Esfehan">
+        <item>شهرستان آران و بیدگل</item>
+        <item>شهرستان اردستان</item>
+        <item>شهرستان اصفهان</item>
+        <item>شهرستان برخوار</item>
+    </string-array>
+
+    <string-array name="Tehran">
+        <item>شهرستان اسلامشهر </item>
+        <item>شهرستان بهارستان </item>
+        <item>شهرستان پاکدشت </item>
+        <item>شهرستان پردیس </item>
+        <item>شهرستان پیشوا </item>
+        <item>شهرستان تهران </item>
+        <item>شهرستان دماوند</item>
+    </string-array>
+
+    <string-array name="Khorasan">
+        <item>شهرستان فریمان</item>
+        <item>شهرستان فیروزه </item>
+        <item>شهرستان قوچان</item>
+        <item>شهرستان کاشمر</item>
+        <item>شهرستان کلات</item>
+        <item>شهرستان گناباد</item>
+        <item>شهرستان مشهد</item>
+    </string-array>
+
+    <string-array name="Mazandaran">
+        <item>شهرستان آمل</item>
+        <item>شهرستان بابل</item>
+        <item>شهرستان بابلسر</item>
+        <item>شهرستان بهشهر</item>
+        <item>شهرستان تنکابن</item>
+        <item>شهرستان جویبار</item>
+        <item>شهرستان چالوس</item>
+        <item>شهرستان رامسر</item>
+        <item>شهرستان ساری</item>
+    </string-array>
+
+    <string-array name="Hospitals">
+        <item>بیمارستان مفید</item>
+        <item>بیمارستان امام رضا(ع)</item>
+        <item>بیمارستان بعثت</item>
+        <item>بیمارستان فجر</item>
+    </string-array>
+
+    <string-array name="Fields">
+        <item>ارتوپدی</item>
+        <item>دندان پزشکی</item>
+        <item>قلب و عروق</item>
+        <item>کلیه و مجاری ادرار</item>
+        <item>مغز و اعصاب</item>
+    </string-array>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="stateError">لطفا استان خود را انتخاب کنید</string>
+    <string name="cityError">لطفا شهرستان خود را انتخاب کنید</string>
+    <string name="hospitalError">لطفا یک مرکز درمانی را انتخاب کنید</string>
+    <string name="fieldAndDoctorError">تخصص و یا نام پزشک مورد نظر خود را انتخاب کنید</string>
+    <string name="countError">ابتدا یک نوبت انتخاب کنید</string>
+    <string name="countError2">هربار فقط مجاز به گرفتن یک نوبت هستید</string>
+    <string name="ownerError">نوبت گیرنده را مشخص کنید</string>
+
+</resources>

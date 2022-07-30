@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor"
+    android:elevation="5dp"
+    app:cardCornerRadius="@dimen/loginCardRadius">
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <com.baharan.service.Widget.Text
+            style="@style/headerTextPrimary"
+            android:layout_marginTop="10dp"
+            android:text="@string/register"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/codeEditText"
+                style="@style/modifiedEditText"
+                android:drawableLeft="@drawable/username"
+                android:hint="کد ملی"
+                android:inputType="numberDecimal"
+                android:layoutDirection="rtl"
+                android:maxLength="10"
+                android:nextFocusDown="@id/passEditText"
+                android:nextFocusForward="@id/passEditText"
+                android:singleLine="true"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/passEditText"
+                style="@style/modifiedEditText"
+                android:drawableLeft="@drawable/ic_lock"
+                android:hint="رمز عبور"
+                android:inputType="textVisiblePassword"
+                android:layoutDirection="rtl"
+                android:maxLength="30"
+                android:nextFocusDown="@id/phoneEditText"
+                android:nextFocusForward="@id/phoneEditText"
+                android:singleLine="true"
+                android:textDirection="anyRtl"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <se.aaro.gustav.passwordstrengthmeter.PasswordStrengthMeter xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/passwordInputMeter"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_gravity="left"
+            android:layout_marginTop="4dp"
+            android:layoutDirection="rtl"
+            app:animateChanges="true"
+            app:animationDuration="300"
+            app:labelTextSize="12sp"
+            app:showStrengthBar="true"
+            app:showStrengthLabel="true"
+            app:strengthBarHeight="5dp" />
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="4dp">
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/phoneEditText"
+                style="@style/modifiedEditText"
+                android:drawableLeft="@drawable/ic_smartphone"
+                android:hint="شماره موبایل"
+                android:inputType="numberDecimal"
+                android:layoutDirection="rtl"
+                android:maxLength="11"
+                android:nextFocusDown="@id/registerButton"
+                android:nextFocusForward="@id/registerButton"
+                android:singleLine="true"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.baharan.service.Widget.Btn
+            android:id="@+id/registerButton"
+            style="@style/loginButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="ثبت‌‌‌نام"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+        <com.baharan.service.Widget.Text
+            android:id="@+id/loginText"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:text="@string/signup_login_hint"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

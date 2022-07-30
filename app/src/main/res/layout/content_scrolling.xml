@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/profile_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_name" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="نام (فارسی)"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:nextFocusDown="@id/userLastName"
+                android:nextFocusForward="@id/userLastName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userName"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem3"
+                android:layout_toLeftOf="@+id/ivContactItem3"
+                android:text="نام"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/chkState1"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_name" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/userLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem12"
+                android:layout_toLeftOf="@+id/ivContactItem12"
+                android:background="@null"
+                android:ellipsize="end"
+                android:textColorHint="@color/gray"
+                android:hint="نام خانوادگی (فارسی)"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:nextFocusDown="@id/userInsuranceCode"
+                android:nextFocusForward="@id/userInsuranceCode"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userLastName"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem12"
+                android:layout_toLeftOf="@+id/ivContactItem12"
+                android:text="نام خانوادگی"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/chkState12"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+        </RelativeLayout>
+
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_phone_black" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/userPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem1"
+                android:layout_toLeftOf="@+id/ivContactItem1"
+                android:text="09351377371"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userPhone"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem1"
+                android:layout_toLeftOf="@+id/ivContactItem1"
+                android:text="شماره همراه"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_code" />
+
+            <com.baharan.service.Widget.Text
+                android:id="@+id/userCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem2"
+                android:layout_toLeftOf="@+id/ivContactItem2"
+                android:text="0020976866"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userCode"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem2"
+                android:layout_toLeftOf="@+id/ivContactItem2"
+                android:text="کد ملی"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_insurance" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/userInsuranceCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem"
+                android:layout_toLeftOf="@+id/ivContactItem"
+                android:background="@null"
+                android:hint="کد بیمه (8 رقمی)"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                android:maxLines="1"
+                android:nextFocusDown="@id/userEmail"
+                android:nextFocusForward="@id/userEmail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userInsuranceCode"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/ivContactItem"
+                android:layout_toLeftOf="@+id/ivContactItem"
+                android:maxLines="1"
+                android:text="کد بیمه"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_email_black" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/userEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem6"
+                android:layout_toLeftOf="@+id/ivContactItem6"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="yahoo/gmail.com@****"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:nextFocusDown="@id/state"
+                android:nextFocusForward="@id/state"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_14ssp" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userEmail"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@id/ivContactItem6"
+                android:layout_toLeftOf="@id/ivContactItem6"
+                android:text="ایمیل"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_star" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_location_on_black" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem10"
+                android:layout_toLeftOf="@+id/ivContactItem10"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="استان"
+                android:inputType="textPostalAddress"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:nextFocusDown="@id/city"
+                android:nextFocusForward="@id/city"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/state"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@id/ivContactItem10"
+                android:layout_toLeftOf="@id/ivContactItem10"
+                android:text="استان"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_city" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem15"
+                android:layout_toLeftOf="@+id/ivContactItem15"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="شهرستان"
+                android:inputType="textPostalAddress"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:nextFocusDown="@id/userAddress"
+                android:nextFocusForward="@id/userAddress"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@id/ivContactItem15"
+                android:layout_toLeftOf="@id/ivContactItem15"
+                android:text="شهرستان   "
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/ivContactItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/ic_address" />
+
+            <com.baharan.service.Widget.EditTxt
+                android:id="@+id/userAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColorHint="@color/gray"
+                android:layout_toStartOf="@+id/ivContactItem5"
+                android:layout_toLeftOf="@+id/ivContactItem5"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="آدرس محل سکونت"
+                android:inputType="textPostalAddress"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:nextFocusDown="@id/okButton"
+                android:nextFocusForward="@id/okButton"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121"
+                android:textDirection="rtl"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <com.baharan.service.Widget.Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userAddress"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@id/ivContactItem5"
+                android:layout_toLeftOf="@id/ivContactItem5"
+                android:text="آدرس"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#3c8ce7"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <com.baharan.service.Widget.Btn
+                android:id="@+id/okButton"
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/register_button"
+                android:elevation="@dimen/_100sdp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="ثبت"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

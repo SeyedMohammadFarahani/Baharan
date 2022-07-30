@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C86E9</color>
+    <color name="colorPrimaryDark">#0C86E9</color>
+    <color name="colorAccent">#00A5FF</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="red">#F70008</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="blue">#0C86E9</color>
+    <color name="BlueDark">#005D8A</color>
+    <color name="them">#16B1C5</color>
+    <color name="white">#FFFDFD</color>
+    <color name="green">#0DAF0F</color>
+    <color name="green2">#71B983</color>
+    <color name="orange">#EB4B1B</color>
+    <color name="yellow">#FFBA00</color>
+    <color name="statusBar">#2962ff</color>
+    <color name="pink">#f0fd7a97</color>
+    <color name="buttonColor">#448aff</color>
+    <color name="buttonTextColor">#626263</color>
+    <color name="background">#f0f0f0</color>
+    <color name="header">#49AEF0</color>
+    <color name="cardBack">#208BC3</color>
+    <color name="myGreen">#50BCA2</color>
+    <color name="myBlue">#1D334A</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="whiteCardColor">#fff</color>
+    <color name="font">#1553B8</color>
+
+
+
+</resources>
